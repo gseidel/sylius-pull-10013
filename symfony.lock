@@ -1,7 +1,4 @@
 {
-    "alchemy/binary-driver": {
-        "version": "v2.0.0"
-    },
     "behat/transliterator": {
         "version": "v1.2.0"
     },
@@ -10,9 +7,6 @@
     },
     "cocur/slugify": {
         "version": "v3.1"
-    },
-    "container-interop/container-interop": {
-        "version": "1.2.0"
     },
     "doctrine/annotations": {
         "version": "1.0",
@@ -98,29 +92,11 @@
     "egulias/email-validator": {
         "version": "2.1.7"
     },
-    "elasticsearch/elasticsearch": {
-        "version": "v6.0.1"
-    },
-    "evenement/evenement": {
-        "version": "v2.1.0"
-    },
-    "facebook/graph-sdk": {
-        "version": "5.6.3"
-    },
     "facebook/webdriver": {
         "version": "1.6.0"
     },
     "fig/link-util": {
         "version": "1.0.0"
-    },
-    "friendsofsymfony/jsrouting-bundle": {
-        "version": "2.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes-contrib",
-            "branch": "master",
-            "version": "2.0",
-            "ref": "370bcf99b04c0dfd0b545745aad622d757af5e1b"
-        }
     },
     "friendsofsymfony/oauth-server-bundle": {
         "version": "1.6.1"
@@ -137,9 +113,6 @@
             "ref": "258300d52be6ad59b32a888d5ddafbf9638540ff"
         }
     },
-    "friendsofsymfony/user-bundle": {
-        "version": "v2.1.2"
-    },
     "fzaninotto/faker": {
         "version": "v1.8.0"
     },
@@ -155,12 +128,6 @@
     "guzzlehttp/psr7": {
         "version": "1.5.2"
     },
-    "guzzlehttp/ringphp": {
-        "version": "1.1.1"
-    },
-    "guzzlehttp/streams": {
-        "version": "3.0.0"
-    },
     "hamcrest/hamcrest-php": {
         "version": "v2.0.0"
     },
@@ -169,9 +136,6 @@
     },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
-    },
-    "jeremykendall/php-domain-parser": {
-        "version": "3.0.0"
     },
     "jms/metadata": {
         "version": "1.7.0"
@@ -191,15 +155,6 @@
             "ref": "fe60ce509ef04a3f40da96e3979bc8d9b13b2372"
         }
     },
-    "johngrogg/ics-parser": {
-        "version": "v2.1.7"
-    },
-    "jsvrcek/ics": {
-        "version": "0.6"
-    },
-    "jsvrcek/ics-bundle": {
-        "version": "0.1"
-    },
     "knplabs/gaufrette": {
         "version": "v0.8.0"
     },
@@ -215,6 +170,24 @@
     "league/uri": {
         "version": "5.3.0"
     },
+    "league/uri-components": {
+        "version": "1.8.2"
+    },
+    "league/uri-hostname-parser": {
+        "version": "1.1.1"
+    },
+    "league/uri-interfaces": {
+        "version": "1.1.1"
+    },
+    "league/uri-manipulations": {
+        "version": "1.5.0"
+    },
+    "league/uri-parser": {
+        "version": "1.4.1"
+    },
+    "league/uri-schemes": {
+        "version": "1.2.1"
+    },
     "liip/imagine-bundle": {
         "version": "1.8",
         "recipe": {
@@ -224,38 +197,11 @@
             "ref": "523b4b0cfb88dc8637cb56e427e6be7718bdce32"
         }
     },
-    "memio/linter": {
-        "version": "v1.0.2"
-    },
-    "memio/memio": {
-        "version": "v1.1.1"
-    },
-    "memio/model": {
-        "version": "v1.4.1"
-    },
-    "memio/pretty-printer": {
-        "version": "v1.0.3"
-    },
-    "memio/twig-template-engine": {
-        "version": "v1.2.7"
-    },
-    "memio/validator": {
-        "version": "v1.0.2"
-    },
     "mockery/mockery": {
         "version": "1.2.0"
     },
     "monolog/monolog": {
         "version": "1.24.0"
-    },
-    "myclabs/deep-copy": {
-        "version": "1.8.1"
-    },
-    "nesbot/carbon": {
-        "version": "1.36.1"
-    },
-    "neutron/temporary-filesystem": {
-        "version": "2.3.0"
     },
     "nikic/php-parser": {
         "version": "v4.1.1"
@@ -274,15 +220,6 @@
     },
     "payum/payum-bundle": {
         "version": "2.3.1"
-    },
-    "phar-io/manifest": {
-        "version": "1.0.3"
-    },
-    "phar-io/version": {
-        "version": "2.0.1"
-    },
-    "php-ffmpeg/php-ffmpeg": {
-        "version": "v0.13"
     },
     "php-http/guzzle6-adapter": {
         "version": "v1.1.1"
@@ -335,47 +272,11 @@
     "psr/simple-cache": {
         "version": "1.0.1"
     },
+    "ralouphie/getallheaders": {
+        "version": "2.0.5"
+    },
     "ramsey/uuid": {
         "version": "3.8.0"
-    },
-    "react/promise": {
-        "version": "v2.7.0"
-    },
-    "ruflin/elastica": {
-        "version": "6.0.2"
-    },
-    "sebastian/code-unit-reverse-lookup": {
-        "version": "1.0.1"
-    },
-    "sebastian/comparator": {
-        "version": "3.0.2"
-    },
-    "sebastian/diff": {
-        "version": "3.0.1"
-    },
-    "sebastian/environment": {
-        "version": "4.0.1"
-    },
-    "sebastian/exporter": {
-        "version": "3.1.0"
-    },
-    "sebastian/global-state": {
-        "version": "2.0.0"
-    },
-    "sebastian/object-enumerator": {
-        "version": "3.0.3"
-    },
-    "sebastian/object-reflector": {
-        "version": "1.1.1"
-    },
-    "sebastian/recursion-context": {
-        "version": "3.0.0"
-    },
-    "sebastian/resource-operations": {
-        "version": "2.0.1"
-    },
-    "sebastian/version": {
-        "version": "2.0.1"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -385,9 +286,6 @@
             "version": "5.2",
             "ref": "fb7e19da7f013d0d422fa9bce16f5c510e27609b"
         }
-    },
-    "simshaun/recurr": {
-        "version": "v2.2.3"
     },
     "sonata-project/block-bundle": {
         "version": "3.13.0"
@@ -412,9 +310,6 @@
     },
     "sonata-project/intl-bundle": {
         "version": "2.5.0"
-    },
-    "spatie/image-optimizer": {
-        "version": "1.1.3"
     },
     "stof/doctrine-extensions-bundle": {
         "version": "1.2",
@@ -713,12 +608,6 @@
     "symfony/yaml": {
         "version": "v4.2.1"
     },
-    "tecnickcom/tcpdf": {
-        "version": "6.2.26"
-    },
-    "theseer/tokenizer": {
-        "version": "1.1.0"
-    },
     "twig/extensions": {
         "version": "1.0",
         "recipe": {
@@ -742,15 +631,6 @@
     },
     "willdurand/hateoas-bundle": {
         "version": "1.4.0"
-    },
-    "willdurand/js-translation-bundle": {
-        "version": "2.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "2.0",
-            "ref": "02b720a49f6d36b44d557e0b18e48bf09e0a8e07"
-        }
     },
     "willdurand/jsonp-callback-validator": {
         "version": "v1.1.0"
