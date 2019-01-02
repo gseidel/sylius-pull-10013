@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf3c3b9abd0cdb2964797957d9fff888",
+    "content-hash": "cfcf9c71393948732b75229b8b42b75c",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -6900,16 +6900,16 @@
         },
         {
             "name": "symfony/doctrine-bridge",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/doctrine-bridge.git",
-                "reference": "9f66793ce023d1c2b50ba6f3141dacf54ad2f651"
+                "reference": "3466c911438e176c20e1943c529131889432d12f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/9f66793ce023d1c2b50ba6f3141dacf54ad2f651",
-                "reference": "9f66793ce023d1c2b50ba6f3141dacf54ad2f651",
+                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/3466c911438e176c20e1943c529131889432d12f",
+                "reference": "3466c911438e176c20e1943c529131889432d12f",
                 "shasum": ""
             },
             "require": {
@@ -6923,7 +6923,8 @@
             },
             "conflict": {
                 "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0",
-                "symfony/dependency-injection": "<3.4"
+                "symfony/dependency-injection": "<3.4",
+                "symfony/messenger": "<4.2"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
@@ -6983,7 +6984,7 @@
             ],
             "description": "Symfony Doctrine Bridge",
             "homepage": "https://symfony.com",
-            "time": "2018-11-26T11:49:31+00:00"
+            "time": "2018-12-05T09:34:58+00:00"
         },
         {
             "name": "symfony/dom-crawler",

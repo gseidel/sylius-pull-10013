@@ -39,7 +39,6 @@
         "symfony/debug-bundle": "v4.2.0",
         "symfony/debug-pack": "v1.0.6",
         "symfony/dependency-injection": "v4.2.0",
-        "symfony/doctrine-bridge": "v4.2.0",
         "symfony/dom-crawler": "v4.2.0",
         "symfony/dotenv": "v4.2.0",
         "symfony/event-dispatcher": "v4.2.0",
