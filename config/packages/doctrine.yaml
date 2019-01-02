@@ -27,3 +27,15 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+
+        resolve_target_entities:
+            App\Entity\Jellybean: App\Entity\GrumpyJellybean
+
+sylius_resource:
+    resources:
+        app.pizza:
+            classes:
+                model: App\Entity\OrangePizza
+        app.bean:
+            classes:
+                model: App\Entity\GrumpyJellybean
